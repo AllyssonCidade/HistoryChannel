@@ -1,0 +1,2 @@
+* text=auto
+client/node_modules/.cache/default-development/*.pack filter=lfs diff=lfs merge=lfs -text

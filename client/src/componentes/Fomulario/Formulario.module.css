@@ -1,0 +1,81 @@
+.formulaio__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 10vh 0 10vh 0;
+    border-top: 100px solid;
+    border-color: var(--branco);
+}
+
+.formulaio__titulo {
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 3vh;
+}
+
+.formulario {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 80vw;
+    padding: 10vh;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
+}
+
+.formulaio__input {
+    margin-bottom: 5vh;
+    margin-top: 1vh;
+    border-radius: 20px;
+    padding: 5px;
+    border: transparent;
+    box-shadow: 0 0 5px;
+    padding-left: 20px;
+}
+
+textarea{
+    resize: vertical;
+ }
+
+.botao__formulaio {
+    display: inline-block;
+    border-radius: 24px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+    background-color: var(--azul-medio);
+    color: var(--branco);
+    border: 3px solid var(--azul-medio);
+    cursor: pointer;
+    transition: 0.2s;
+    text-align: center;
+}
+
+.botao__formulaio:hover {
+    border: 3px solid var(--azul-escuro);
+}
+
+@media screen and (min-width:320px) {
+    .formulaio {
+        width: 95%;
+        padding: 5vh 5px 5vh 5px;
+    }
+
+    .formulaio__input {
+        width: 100%;
+    }
+}
+@media screen and (min-width:768px) {
+    .formulaio {
+        width: 80vw;
+        padding: 5vh 5px 5vh 5px;
+    }
+
+    .formulaio__input {
+        width: 100%;
+    }
+}
